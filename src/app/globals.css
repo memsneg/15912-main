@@ -1,0 +1,84 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --brand: #c8102e;
+  --brand-dark: #8b0a1f;
+  --brand-light: #ff3352;
+  --accent: #1a1a2e;
+  --gold: #e8a014;
+  --text: #1a1a1a;
+  --text-muted: #5a5a5a;
+  --surface: #f7f7f7;
+  --border: #e0e0e0;
+  --radius: 12px;
+  --radius-sm: 8px;
+  --shadow: 0 4px 24px rgba(0, 0, 0, 0.08);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  color: var(--text);
+  background: #fff;
+  line-height: 1.7;
+}
+
+@layer components {
+  .section-inner {
+    @apply max-w-[1000px] mx-auto px-6;
+  }
+
+  .section-tag {
+    @apply inline-block text-[13px] font-bold px-3.5 py-1 rounded-full mb-3 tracking-wide;
+    background: rgba(200, 16, 46, 0.1);
+    color: var(--brand);
+  }
+
+  .section-title {
+    @apply text-[clamp(22px,4vw,36px)] font-black leading-tight mb-3 tracking-tight;
+  }
+
+  .section-sub {
+    @apply text-[var(--text-muted)] text-base mb-10 max-w-xl;
+  }
+
+  .btn-call {
+    @apply inline-flex items-center gap-2 font-bold text-white rounded-lg transition-colors;
+    background: var(--brand);
+    padding: 10px 20px;
+  }
+
+  .btn-call:hover {
+    background: var(--brand-dark);
+  }
+
+  .btn-whatsapp {
+    @apply inline-flex items-center gap-2 font-bold text-white rounded-lg;
+    background: #25d366;
+    padding: 10px 20px;
+  }
+}
+
+@layer utilities {
+  .safe-area-pb {
+    padding-bottom: env(safe-area-inset-bottom, 0);
+  }
+}
+
+@keyframes pulse-call {
+  0%,
+  100% {
+    box-shadow: 0 0 0 0 rgba(200, 16, 46, 0.5);
+  }
+  50% {
+    box-shadow: 0 0 0 10px rgba(200, 16, 46, 0);
+  }
+}
+
+.animate-pulse-call {
+  animation: pulse-call 2.5s infinite;
+}
