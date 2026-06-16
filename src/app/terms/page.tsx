@@ -3,8 +3,8 @@ import { DISCLAIMER_EN, DISCLAIMER_AR } from "@/lib/constants";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "الشروط والأحكام | 15912",
-  description: "Terms and conditions for 15912 appliance maintenance services.",
+  title: "الشروط والأحكام | ",
+  description: "Terms and conditions for  appliance maintenance services.",
 };
 
 export default function TermsPage() {
