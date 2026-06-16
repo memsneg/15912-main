@@ -35,7 +35,7 @@ export function buildGovernorateMetadata(
 ): Metadata {
   const areasFormatted = formatAreaListAr(governorate.areas);
   const title = `صيانة ${brand.nameAr} ${governorate.nameAr} | مركز خدمة ${brand.nameAr} في ${areasFormatted}`;
-  const description = `خدمات صيانة ${brand.nameAr} في ${governorate.nameAr} تشمل ${areasFormatted} — خدمة منزلية وقطع غيار أصلية وضمان بعد الصيانة. الخط الساخن 15912.`;
+  const description = `خدمات صيانة ${brand.nameAr} في ${governorate.nameAr} تشمل ${areasFormatted} — خدمة منزلية وقطع غيار أصلية وضمان بعد الصيانة. الخط الساخن .`;
 
   return {
     title,
@@ -64,12 +64,12 @@ export function buildGovernorateMetadata(
 
 export function buildHomeMetadata(): Metadata {
   return {
-    title: "صيانة أجهزة منزلية | خط ساخن 15912 — LG وكريازي وزانوسي",
+    title: "صيانة أجهزة منزلية | خط ساخن  — LG وكريازي وزانوسي",
     description:
-      "صيانة مستقلة لجميع ماركات الأجهزة المنزلية في مصر — LG وكريازي وأريستون ووايت ويل وزانوسي. خدمة منزلية، قطع غيار أصلية، ضمان. اتصل 15912.",
+      "صيانة مستقلة لجميع ماركات الأجهزة المنزلية في مصر — LG وكريازي وأريستون ووايت ويل وزانوسي. خدمة منزلية، قطع غيار أصلية، ضمان. اتصل .",
     alternates: { canonical: SITE_URL },
     openGraph: {
-      title: "صيانة أجهزة منزلية | خط ساخن 15912",
+      title: "صيانة أجهزة منزلية | خط ساخن ",
       description: "صيانة منزلية متعددة الماركات في المحافظات المصرية",
       url: SITE_URL,
       siteName: SITE_NAME,
