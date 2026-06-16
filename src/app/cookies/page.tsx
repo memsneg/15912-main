@@ -2,8 +2,8 @@ import { Breadcrumbs } from "@/components/layout/Breadcrumbs";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "سياسة الكوكيز | 15912",
-  description: "Cookie policy for 15912 website.",
+  title: "سياسة الكوكيز | ",
+  description: "Cookie policy for  website.",
 };
 
 export default function CookiesPage() {
