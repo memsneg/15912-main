@@ -28,7 +28,7 @@ export function Header() {
             </span>
           </>
         ) : (
-          <span className="font-black text-xl">15912 — صيانة أجهزة</span>
+          <span className="font-black text-xl">صيانة أجهزة</span>
         )}
       </Link>
 
