@@ -3,9 +3,9 @@ import { DisclaimerBanner } from "@/components/layout/DisclaimerBanner";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "من نحن | 15912 صيانة أجهزة منزلية",
+  title: "من نحن | صيانة أجهزة منزلية",
   description:
-    "تعرف على فريق 15912 لصيانة الأجهزة المنزلية — خدمة مستقلة متعددة الماركات في مصر.",
+    "تعرف على فريق  لصيانة الأجهزة المنزلية — خدمة مستقلة متعددة الماركات في مصر.",
 };
 
 export default function AboutPage() {
@@ -19,7 +19,7 @@ export default function AboutPage() {
       </p>
       <p className="text-gray-700 leading-relaxed mb-4">
         نقدم صيانة منزلية سريعة، قطع غيار أصلية، وضماناً بعد الإصلاح. فريقنا من
-        الفنيين المدربين جاهز لخدمتكم طوال الأسبوع عبر الخط الساخن 15912.
+        الفنيين المدربين جاهز لخدمتكم طوال الأسبوع عبر الخط الساخن .
       </p>
       <DisclaimerBanner />
     </div>
