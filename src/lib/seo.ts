@@ -11,8 +11,8 @@ function formatAreaListAr(areas: { nameAr: string }[], max = 6): string {
 }
 
 export function buildBrandMetadata(brand: Brand): Metadata {
-  const title = `صيانة ${brand.nameAr} | مركز خدمة ${brand.nameAr} — خط ساخن 15912`;
-  const description = `خدمات صيانة ${brand.nameAr} في القاهرة والدقهلية والبحيرة والغربية وكفر الشيخ — خدمة منزلية وقطع غيار أصلية وضمان بعد الصيانة. اتصل 15912.`;
+  const title = `صيانة ${brand.nameAr} | مركز خدمة ${brand.nameAr} — خط ساخن `;
+  const description = `خدمات صيانة ${brand.nameAr} في القاهرة والدقهلية والبحيرة والغربية وكفر الشيخ — خدمة منزلية وقطع غيار أصلية وضمان بعد الصيانة. اتصل علي الخط الساخن.`;
 
   return {
     title,
