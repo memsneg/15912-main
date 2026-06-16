@@ -7,7 +7,7 @@ export function Footer() {
     <footer className="bg-[#0d0d1a] text-white/65 py-12 px-6 text-[13px] leading-relaxed">
       <div className="max-w-[1000px] mx-auto grid md:grid-cols-3 gap-10 mb-8">
         <div>
-          <h4 className="text-white font-bold text-[15px] mb-3.5">15912 — صيانة أجهزة</h4>
+          <h4 className="text-white font-bold text-[15px] mb-3.5"> صيانة أجهزة</h4>
           <p className="mb-4">خدمات صيانة متخصصة لجميع ماركات الأجهزة المنزلية في مصر.</p>
           <a href={HOTLINE_TEL} className="text-[var(--brand-light)] font-bold text-lg">
             📞 {HOTLINE}
@@ -34,7 +34,7 @@ export function Footer() {
         <strong className="text-white/55">إخلاء المسؤولية:</strong> {DISCLAIMER_AR}
       </p>
       <p className="max-w-[1000px] mx-auto mt-4 text-white/30 text-xs">
-        © {new Date().getFullYear()} 15912 — جميع الحقوق محفوظة
+        © {new Date().getFullYear()}   جميع الحقوق محفوظة
       </p>
     </footer>
   );
