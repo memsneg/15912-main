@@ -31,7 +31,7 @@ export function AreasSection({
 
         <div className="text-center">
           <a href={HOTLINE_TEL} className="btn-call text-[15px] py-3.5 px-7">
-            📞 اطلب فني الآن — 15912
+            📞 اطلب فني الآن 
           </a>
         </div>
       </div>
