@@ -4,8 +4,8 @@ import { DISCLAIMER_EN, DISCLAIMER_AR } from "@/lib/constants";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "سياسة الخصوصية | 15912",
-  description: "Privacy policy for 15912 appliance maintenance services.",
+  title: "سياسة الخصوصية | ",
+  description: "Privacy policy for  appliance maintenance services.",
 };
 
 export default function PrivacyPolicyPage() {
