@@ -6,7 +6,7 @@ import { HOTLINE } from "@/lib/constants";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "اتصل بنا | خط ساخن 15912",
+  title: "اتصل بنا | خط ساخن ",
   description: "تواصل معنا لحجز صيانة أجهزة منزلية — اتصال، واتساب، أو نموذج طلب.",
 };
 
