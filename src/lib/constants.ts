@@ -1,9 +1,9 @@
-export const HOTLINE = "15912";
-export const HOTLINE_TEL = "tel:15912";
-export const WHATSAPP_NUMBER = "01552215912";
+export const HOTLINE = "01026684959";
+export const HOTLINE_TEL = "tel:01026684959";
+export const WHATSAPP_NUMBER = "01026684959";
 export const WHATSAPP_URL = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent("مرحباً، أريد حجز صيانة أجهزة منزلية")}`;
-export const SITE_NAME = "15912 Appliance Maintenance";
-export const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://hotline15912.online";
+export const SITE_NAME = " Appliance Maintenance";
+export const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || "";
 
 export const DISCLAIMER_AR = `نحن مزود خدمة صيانة مستقل متخصص في إصلاح جميع ماركات الأجهزة المنزلية. نستخدم قطع غيار أصلية ونقدم ضماناً على عيوب التصنيع.
 
